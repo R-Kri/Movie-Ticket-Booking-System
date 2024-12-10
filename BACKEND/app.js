@@ -17,9 +17,11 @@ app.use("/admin", adminRouter);
 app.use("/movie", movieRouter);
 app.use("/booking", bookingsRouter);
 
+// NbVsESZdyyf44v7Q
+
 mongoose
   .connect(
-    `mongodb+srv://renjithaniltvm:key2Renjith!@cluster0.apmlmbr.mongodb.net/MovieBookingSystem`
+    `mongodb+srv://Admin:NbVsESZdyyf44v7Q@cluster0.cs363.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
   )
   .then(() =>
     app.listen(5000, () =>
